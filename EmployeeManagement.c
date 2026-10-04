@@ -9,7 +9,7 @@
 #define STR_LEN 50
 
 //Global Arrays
-char employeeID[MAX_EMPLOYEES][10];
+char employeeID[MAX_EMPLOYEES][15];
 char employeeName[MAX_EMPLOYEES][STR_LEN];
 char employeeDept[MAX_EMPLOYEES][STR_LEN];
 double basicSalary[MAX_EMPLOYEES];
