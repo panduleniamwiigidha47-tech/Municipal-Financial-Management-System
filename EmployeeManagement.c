@@ -26,7 +26,7 @@ void employeeMenu(void);
 void addEmployee(void);
 void displayEmployee(void);
 void searchEmployee(void);
-void calculateSalary();
+//void calculateSalary();
 //displayInfo();
 
 
