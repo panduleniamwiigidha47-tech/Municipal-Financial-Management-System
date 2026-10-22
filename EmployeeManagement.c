@@ -193,4 +193,4 @@ void searchEmployee (void) {
     
 }
 
-void calculateSalary (void) {
+//void calculateSalary (void) {
