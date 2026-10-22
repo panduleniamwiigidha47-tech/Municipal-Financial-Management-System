@@ -34,7 +34,7 @@ void calculateSalary();
 
 void employeeMenu (void) {
 
-    char choice;
+    int choice;
 
     do {
 
@@ -49,22 +49,22 @@ void employeeMenu (void) {
     puts("5. Exit the system");
 
     printf("\nEnter a choice: ");
-    scanf(" %c", &choice);
+    scanf("%d", &choice);
      
     switch (choice) {
-        case '1':
+        case 1:
             addEmployee();
             break;
-        case '2':
+        case 2:
            displayEmployee();
             break;
-        case '3':
+        case 3:
            searchEmployee();
             break;
-        case '4':
+        case 4:
            calculateSalary();
             break;
-        case '5':
+        case 5:
         //Exit the system
           puts("Exiting the system");
             break;
@@ -72,7 +72,7 @@ void employeeMenu (void) {
             puts("[!] Invalid choice, select between 1 to 5 [!]");
     }  
     
-    } while (choice != '5');
+    } while (choice != 5);
 }
 
 void addEmployee (void) {
